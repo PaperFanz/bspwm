@@ -58,6 +58,7 @@ void update_motion_recorder(void);
 void enable_motion_recorder(xcb_window_t win);
 void disable_motion_recorder(void);
 void window_border_width(xcb_window_t win, uint32_t bw);
+void window_border_radius(client_t *cli, uint32_t br);
 void window_move(xcb_window_t win, int16_t x, int16_t y);
 void window_resize(xcb_window_t win, uint16_t w, uint16_t h);
 void window_move_resize(xcb_window_t win, int16_t x, int16_t y, uint16_t w, uint16_t h);
